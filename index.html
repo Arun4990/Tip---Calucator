@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calucator</title>
+</head>
+<body>
+    <div class="Container">
+        <div class="first">
+            <div class="b">
+                    <p>Bill</p>
+                    <input type="text" id="bill" value="">
+            </div>
+            <div class="b">
+                <p>Tip %</p>
+                <div class="box">
+                        <button id="decrtip">-</button>
+                        <input type="text" id="tip" value="15 %" >
+                        <button id="incrtip">+</button>
+                </div>
+            </div>
+            <div class="b">
+                <p>Number of People</p>
+                <div class="box">
+                        <button id="decrpeople">-</button>
+                        <input type="text" id="people" value="1">
+                        <button id="incrpeople">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="second">
+            <div class="sbox">
+                <div>
+                    <h2>Tip</h2>
+                    <p>per Person</p>
+                </div>
+                <h1 id="tipprice">$0.00</h1>
+            </div>
+            <div class="sbox">
+                <div >
+                    <h2>Total</h2>
+                    <p>per Person</p>
+                </div>
+                <h1 id="totalprice">$0.00</h1>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

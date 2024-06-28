@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#EEEEEE;
+    color:#EEEEEE;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    border: none;
+    border-radius: 7px;
+    background-color: #373333;
+    box-shadow: #423e3e 5px 6px 15px;
+}
+.first{
+    margin: 10px 20px;
+    padding: 12px 30px;
+    width: 90%;
+    
+}
+.second{
+    margin: 10px 20px;
+    padding: 12px 30px;
+    width: 90%;
+
+}
+.box{
+    display: flex;
+}
+input{
+    padding: 14px;
+}
+button{
+    padding: 14px;
+}
+@media (max-width:1050px) {
+    .Container {
+        width: 90%;
+        flex-direction: column;
+    }
+    .b{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+}
+
+.sbox{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+}
